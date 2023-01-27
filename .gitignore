@@ -11,6 +11,7 @@
 # next.js
 ./src/.next/*
 ./src/.next/
+src/.next/
 /.next/
 /out/
 

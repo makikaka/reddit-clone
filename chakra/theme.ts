@@ -1,6 +1,7 @@
 // 1. Import `extendTheme`
 import { ChakraProvider, extendTheme } from "@chakra-ui/react"
 import App from "next/app"
+import { Button } from "./button";
 
 // 2. Call `extendTheme` and pass your custom values
 export const theme = extendTheme({
@@ -13,7 +14,7 @@ export const theme = extendTheme({
     body: "Open Sans, sans-serif"
   },
   components: {
-    // Button: ""
+    Button,
   },
   styles: {
     global: () => ({

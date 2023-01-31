@@ -9,9 +9,6 @@
 /coverage
 
 # next.js
-./src/.next/*
-./src/.next/
-src/.next/
 /.next/
 /out/
 
@@ -29,12 +26,13 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
-.env*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
-src/.next/build-manifest.json
